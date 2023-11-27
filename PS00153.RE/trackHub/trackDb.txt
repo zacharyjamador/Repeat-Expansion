@@ -230,6 +230,6 @@ maxHeighPixels 100:32:8
     color 235, 52, 131
 
     track PS00153.norm_FIRE_score
-    bigDataUrl https://stergachis-public1.s3.us-west-2.amazonaws.com/Stephanie/Zachary/PS0015i.norm/trackHub/bw/score.bw
+    bigDataUrl https://rawcdn.githack.com/zacharyjamador/Repeat-Expansion/e090a2e7b53a1c0851b06085255da164dd750ce4/PS0015i.norm/trackHub/bw/score.bw
     parent PS00153.RE_vs_PS00153.norm_FIRE_score
     color 76, 52, 235
