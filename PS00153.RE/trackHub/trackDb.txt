@@ -224,12 +224,12 @@ type bigWig 0 1000
 viewLimits 0:1
 maxHeighPixels 100:32:8
 
-    track PS00153.RE_FIRE_score
-    bigDataUrl bw/score.bw
+    track PS00153.norm_FIRE_score
+    bigDataUrl https://rawcdn.githack.com/zacharyjamador/Repeat-Expansion/e090a2e7b53a1c0851b06085255da164dd750ce4/PS0015i.norm/trackHub/bw/score.bw
     parent PS00153.RE_vs_PS00153.norm_FIRE_score
     color 235, 52, 131
 
-    track PS00153.norm_FIRE_score
-    bigDataUrl https://rawcdn.githack.com/zacharyjamador/Repeat-Expansion/e090a2e7b53a1c0851b06085255da164dd750ce4/PS0015i.norm/trackHub/bw/score.bw
+    track PS00153.RE_FIRE_score
+    bigDataUrl bw/score.bw
     parent PS00153.RE_vs_PS00153.norm_FIRE_score
     color 76, 52, 235
