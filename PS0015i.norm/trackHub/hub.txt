@@ -1,0 +1,6 @@
+
+hub fiberseq-PS0015i.norm
+shortLabel fiberseq-PS0015i.norm
+longLabel fiberseq-PS0015i.norm
+genomesFile genomes.txt
+email mvollger.edu
