@@ -1,0 +1,237 @@
+
+track coverage-PS00153.RE-all
+longLabel PS00153.RE-all coverage
+shortLabel PS00153.RE-all coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:64
+visibility full
+maxHeightPixels 100:100:8
+    
+    track Accessible-PS00153.RE-all
+    parent coverage-PS00153.RE-all
+    bigDataUrl bw/all.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track Linker-PS00153.RE-all
+    parent coverage-PS00153.RE-all
+    bigDataUrl bw/all.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track Nucleosomes-PS00153.RE-all
+    parent coverage-PS00153.RE-all
+    bigDataUrl bw/all.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+track FIRE.peaks.PS00153.RE
+type bigNarrowPeak
+bigDataUrl bb/FDR-FIRE-peaks.bb
+shortLabel FIRE.peaks.PS00153.RE
+longLabel FIRE.peaks.PS00153.RE
+visibility dense
+maxHeightPixels 50:50:1
+
+track hap.diff.PS00153.RE
+type bigBed 9 +
+itemRgb on
+bigDataUrl bb/hap_differences.bb
+shortLabel hap.diffPS00153.RE
+longLabel hap.diff.PS00153.RE
+visibility pack
+maxHeightPixels 25:25:1
+
+track FDR-wide-peaks-PS00153.RE
+shortLabel FDR-wide-peaks-PS00153.RE
+longLabel FDR-wide-peaks-PS00153.RE
+type bigBed 
+bigDataUrl bb/FDR-wide-peaks.bb
+visibility dense
+maxItems 100000
+
+track percent-accessible-PS00153.RE
+shortLabel PS00153.RE percent-accessible tracks 
+longLabel  PS00153.RE percent-accessible tracks
+container multiWig
+aggregate none 
+showSubtrackColorOnUi on
+type bigWig 0 1000
+alwaysZero on
+viewLimits 0:100
+autoScale off
+maxItems 100000
+visibility full
+maxHeightPixels 100:100:8
+
+    track percent-accessible-PS00153.RE-all
+    parent percent-accessible-PS00153.RE
+    bigDataUrl bw/all.percent.accessible.bw
+    type bigWig
+    visibility hide
+    color 0,0,0
+
+track PS00153.RE-H1-fibers
+shortLabel PS00153.RE-H1-fibers
+longLabel PS00153.RE-H1-fibers
+visibility squish
+type bigBed 12+
+itemRgb On
+filterText.keywords H1
+bigDataUrl bb/fire-fibers.bb 
+decorator.default.bigDataUrl bb/fire-fiber-decorators.bb 
+decorator.default.filterValues.keywords FIRE,Linker
+
+track PS00153.RE-H2-fibers
+shortLabel PS00153.RE-H2-fibers
+longLabel PS00153.RE-H2-fibers
+visibility squish
+type bigBed 12+
+itemRgb On
+filterText.keywords H2
+bigDataUrl bb/fire-fibers.bb 
+decorator.default.bigDataUrl bb/fire-fiber-decorators.bb 
+decorator.default.filterValues.keywords FIRE,Linker
+
+track PS00153.RE-UNK-fibers
+shortLabel PS00153.RE-UNK-fibers
+longLabel PS00153.RE-UNK-fibers
+visibility squish
+type bigBed 12+
+itemRgb On
+filterText.keywords UNK
+bigDataUrl bb/fire-fibers.bb 
+decorator.default.bigDataUrl bb/fire-fiber-decorators.bb 
+decorator.default.filterValues.keywords FIRE,Linker
+
+track coverage-PS00153.RE-hap1
+longLabel PS00153.RE-hap1 coverage
+shortLabel PS00153.RE-hap1 coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:64
+visibility full
+maxHeightPixels 100:100:8
+    
+    track Accessible-PS00153.RE-hap1
+    parent coverage-PS00153.RE-hap1
+    bigDataUrl bw/hap1.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track Linker-PS00153.RE-hap1
+    parent coverage-PS00153.RE-hap1
+    bigDataUrl bw/hap1.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track Nucleosomes-PS00153.RE-hap1
+    parent coverage-PS00153.RE-hap1
+    bigDataUrl bw/hap1.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+    track percent-accessible-PS00153.RE-hap1
+    parent percent-accessible-PS00153.RE
+    bigDataUrl bw/hap1.percent.accessible.bw
+    type bigWig
+    visibility full
+    color 0,0,255
+
+track coverage-PS00153.RE-hap2
+longLabel PS00153.RE-hap2 coverage
+shortLabel PS00153.RE-hap2 coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:64
+visibility full
+maxHeightPixels 100:100:8
+    
+    track Accessible-PS00153.RE-hap2
+    parent coverage-PS00153.RE-hap2
+    bigDataUrl bw/hap2.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track Linker-PS00153.RE-hap2
+    parent coverage-PS00153.RE-hap2
+    bigDataUrl bw/hap2.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track Nucleosomes-PS00153.RE-hap2
+    parent coverage-PS00153.RE-hap2
+    bigDataUrl bw/hap2.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+    track percent-accessible-PS00153.RE-hap2
+    parent percent-accessible-PS00153.RE
+    bigDataUrl bw/hap2.percent.accessible.bw
+    type bigWig
+    visibility full
+    color 255,0,0
+
+track FIRE_FDR
+compositeTrack on
+shortLabel FIRE FDR
+longLabel FIRE scores and FDR values
+type bigWig
+maxItems 100000
+maxHeightPixels 100:100:1
+alwaysZero on
+
+    track log_fdr
+    parent FIRE_FDR
+    bigDataUrl bw/log_FDR.bw
+    shortLabel -10log10 FDR
+    longLabel -10log10 FDR
+    autoScale on
+    visibility full
+    yLineOnOff on
+    yLineMark 13.010299956639813
+    gridDefault on
+    
+    track fire_score
+    parent FIRE_FDR
+    bigDataUrl bw/score.bw
+    shortLabel FIRE score
+    longLabel FIRE score
+    visibility hide
+    autoScale on
+    viewLimits 0.0:100.0
+
+track PS00153.RE_vs_PS00153.norm_FIRE_score # edit this (parent track name)
+longLabel PS00153.RE_vs_PS00153.norm_FIRE_score # edit this
+shortLabel PS00153.RE_vs_PS00153.norm_FIRE_score # edit this
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 1000
+viewLimits 0:1
+maxHeighPixels 100:32:8
+
+    track PS00153.RE_FIRE_score # edit this
+    bigDataUrl bw/score.bw # edit this
+    parent PS00153.RE_vs_PS00153.norm_FIRE_score # edit this, make sure name is identical to parent track name line
+    color 235, 52, 131  # option to edit (change colors)
+
+    track PS00153.norm_FIRE_score # edit this
+    bigDataUrl https://stergachis-public1.s3.us-west-2.amazonaws.com/Stephanie/Zachary/PS0015i.norm/trackHub/bw/score.bw # edit this
+    parent PS00153.RE_vs_PS00153.norm_FIRE_score  # edit this, make sure name is identical to parent track name line
+    color 76, 52, 235 # option to edit (change colors)
+
+

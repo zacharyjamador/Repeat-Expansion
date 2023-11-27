@@ -1,0 +1,6 @@
+
+hub fiberseq-PS00153.RE
+shortLabel fiberseq-PS00153.RE
+longLabel fiberseq-PS00153.RE
+genomesFile genomes.txt
+email mvollger.edu
