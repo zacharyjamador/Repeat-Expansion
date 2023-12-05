@@ -1,0 +1,6 @@
+
+hub fiberseq-DM1all.RE
+shortLabel fiberseq-DM1all.RE
+longLabel fiberseq-DM1all.RE
+genomesFile genomes.txt
+email mvollger.edu
