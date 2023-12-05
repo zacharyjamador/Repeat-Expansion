@@ -1,6 +1,0 @@
-
-hub fiberseq-DM1all.norm
-shortLabel fiberseq-DM1all.norm
-longLabel fiberseq-DM1all.norm
-genomesFile genomes.txt
-email mvollger.edu
