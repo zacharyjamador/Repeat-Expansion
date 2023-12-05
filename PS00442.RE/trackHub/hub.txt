@@ -1,6 +1,0 @@
-
-hub fiberseq-PS00442.RE
-shortLabel fiberseq-PS00442.RE
-longLabel fiberseq-PS00442.RE
-genomesFile genomes.txt
-email mvollger.edu
