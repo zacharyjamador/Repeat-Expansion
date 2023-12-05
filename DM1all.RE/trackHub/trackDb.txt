@@ -213,3 +213,23 @@ alwaysZero on
     visibility hide
     autoScale on
     viewLimits 0.0:100.0
+
+track DM1all.RE_vs_DM1all.norm_FIRE_score
+longLabel DM1all.RE_vs_DM1all.norm_FIRE_score
+shortLabel DM1all.RE_vs_DM1all.norm_FIRE_score
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+type bigWig 0 1000
+viewLimits 0:1
+maxHeighPixels 100:32:8
+
+    track DM1all.norm_FIRE_score
+    bigDataUrl https://rawcdn.githack.com/zacharyjamador/Repeat-Expansion/e090a2e7b53a1c0851b06085255da164dd750ce4/PS0015i.norm/trackHub/bw/score.bw
+    parent DM1all.RE_vs_DM1all.norm_FIRE_score
+    color 235, 52, 131
+
+    track DM1all.RE_FIRE_score
+    bigDataUrl bw/score.bw
+    parent DM1all.RE_vs_DM1all.norm_FIRE_score
+    color 76, 52, 235
