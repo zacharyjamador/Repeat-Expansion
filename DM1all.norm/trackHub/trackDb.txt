@@ -74,7 +74,7 @@ maxHeightPixels 100:100:8
     bigDataUrl bw/all.percent.accessible.bw
     type bigWig
     visibility hide
-    color 0,0,0
+    color 238,136,102
 
 track DM1all.norm-H1-fibers
 shortLabel DM1all.norm-H1-fibers
