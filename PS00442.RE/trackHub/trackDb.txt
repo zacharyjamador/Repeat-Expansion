@@ -74,7 +74,7 @@ maxHeightPixels 100:100:8
     bigDataUrl bw/all.percent.accessible.bw
     type bigWig
     visibility hide
-    color 0,0,0
+    color 230,159,0
 
 track PS00442.RE-H1-fibers
 shortLabel PS00442.RE-H1-fibers
